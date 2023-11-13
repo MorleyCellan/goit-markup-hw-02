@@ -74,3 +74,30 @@ body {
 .address-link:focus {
   color: var(--ocean);
 }
+
+/* FEATURE SECTION */
+
+.section {
+  background-color: var(--navy-blue);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.button {
+  background-color: var(--iris);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
+  cursor: pointer;
+}

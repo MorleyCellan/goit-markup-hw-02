@@ -30,6 +30,10 @@ body {
   color: var(--iris);
 }
 
+.logo .span {
+  color: var(--navy-blue);
+}
+
 .link {
   text-decoration: none;
 }

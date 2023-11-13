@@ -75,21 +75,21 @@ body {
   color: var(--ocean);
 }
 
-/* FEATURE SECTION */
+/* HERO SECTION */
 
-.section {
+.hero-section {
   background-color: var(--navy-blue);
   text-align: center;
   color: var(--white);
 }
 
-.title {
+.hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
-.button {
+.hero-button {
   background-color: var(--iris);
   font-family: inherit;
   font-weight: 500;
@@ -99,8 +99,24 @@ body {
   color: var(--white);
 }
 
-.button:hover,
-.button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--ocean);
   cursor: pointer;
+}
+
+/* FEATURE SECTION */
+
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }

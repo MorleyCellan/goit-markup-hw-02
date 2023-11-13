@@ -59,9 +59,18 @@ body {
   color: var(--ocean);
 }
 
-.address-link {
+.address {
   font-style: normal;
+}
+
+.address-link {
+  /* font-style: normal; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: inherit;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean);
 }

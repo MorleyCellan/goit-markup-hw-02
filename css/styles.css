@@ -1,4 +1,4 @@
-/* CSS Variables */
+/* CSS VARIABLES */
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -18,7 +18,7 @@ body {
   background-color: var(--white);
 }
 
-/* GENERAL STYLE */
+/* GENERAL STYLES */
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -38,7 +38,9 @@ body {
   list-style: none;
 }
 
-/* header section */
+/* END OF GENERAL STYLES */
+
+/* HEADER SECTION */
 
 .logo .span {
   color: var(--navy-blue);
@@ -55,4 +57,11 @@ body {
 .header-link:hover,
 .header-link:focus {
   color: var(--ocean);
+}
+
+.address-link {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: inherit;
 }

@@ -65,7 +65,7 @@ body {
 
 /* HEADER SECTION */
 
-.logo .span {
+.nav .span {
   color: var(--navy-blue);
 }
 
@@ -129,3 +129,14 @@ body {
 }
 
 /* FEATURE SECTION */
+
+/* FOOTER SECTION */
+
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.footer .span,
+.footer .item-text {
+  color: var(--cloud);
+}

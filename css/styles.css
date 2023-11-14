@@ -30,6 +30,15 @@ body {
   color: var(--iris);
 }
 
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
 .link {
   text-decoration: none;
 }

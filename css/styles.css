@@ -130,6 +130,15 @@ body {
 
 /* FEATURE SECTION */
 
+/* TEAM SECTION */
+.team-section {
+  background-color: var(--cloud);
+}
+
+.card-item {
+  background-color: var(--white);
+}
+
 /* FOOTER SECTION */
 
 .footer {
@@ -139,4 +148,22 @@ body {
 .footer .span,
 .footer .item-text {
   color: var(--cloud);
+}
+
+/* PAGE SECTION */
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+  cursor: pointer;
 }
